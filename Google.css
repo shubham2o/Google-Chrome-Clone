@@ -8,5 +8,37 @@
  }
 .topmargin a {
      padding: 0 10px;
+     text-decoration: none;
 }
- 
+ .form {
+     margin-top: 25px;
+}
+.form > .text {
+     width: auto;
+     height: 40px;
+     border-radius: 15px;
+     border:1px solid black;
+     display: flex;
+ }
+ @media screen and (max-width:600px) {
+     .form > .text {
+         width: 90%;
+         margin-left: 25px;
+         margin-right: 25px;
+     }
+ }
+ @media screen and (min-width:601px) and (max-width:750px) {
+     .form > .text {
+         width: 90%;
+         margin-left: 30px;
+         margin-right: 30px;
+     }
+ }
+ @media screen and (min-width:751px) and (max-width:1000px) {
+     .form > .text {
+         width: 70%;
+         margin-left: 135px;
+         margin-right: 30px;
+     }
+ }
+ @media screen and (min-width:751px) and (max-width:1000px) {
