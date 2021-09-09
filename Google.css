@@ -73,6 +73,13 @@
 
 
 
+ .divbutton > .button1:hover,
+ .divbutton > .button2:hover {
+     cursor: pointer;
+ }
+
+
+
   @media screen and (max-width:600px) and (min-width:0px) {
      .form > .text {
          width: 90%;
