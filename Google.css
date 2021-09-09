@@ -36,6 +36,12 @@
 
 
 
+ .form > .text:focus {
+     outline: none;
+ }
+
+
+
  .divbutton {
      display: flex;
      justify-content: center;
@@ -63,12 +69,6 @@
  .form > .text:hover  {
      border-bottom: 2px solid lightgray;
      box-shadow: 0px 1px 3px gray;
- }
-
-
-
- .form > .text:focus {
-     outline: none;
  }
 
 
