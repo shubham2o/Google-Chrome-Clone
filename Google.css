@@ -12,7 +12,7 @@
 
 
 
-.topmargin a {
+ .topmargin a {
      padding: 0 10px;
      text-decoration: none;
 }
@@ -25,7 +25,7 @@
 
 
 
-.form > .text {
+ .form > .text {
      width: 40%;
      height: 45px;
      border-radius: 15px;
