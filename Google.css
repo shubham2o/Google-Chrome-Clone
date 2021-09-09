@@ -27,9 +27,9 @@
 
 .form > .text {
      width: 40%;
-     height: 42px;
+     height: 45px;
      border-radius: 15px;
-     border:1px solid black;
+     border: 2px solid lightgray;
      display: flex;
      margin-left: 455px;
  }
@@ -44,21 +44,27 @@
  .divbutton > .button2 {
      width: auto;
      height: 40px;
-     font-size: 16px;
+     font-size: 14px;
+     border: 0;
+     background-color: white;
  }
  .divbutton > .button1 {
      padding: 2px 15px;
  }
  .divbutton > .button2 {
-     margin-left: 10px;
+     margin-left: 15px;
      padding: 2px 10px;
+ }
+ .divbutton > .button1:hover,
+ .divbutton > .button2:hover  {
+     border: 1px solid lightgray;
  }
 
 
 
  @media screen and (max-width:600px) and (min-width:0px) {
      .form > .text {
-         width: 95%;
+         width: 90%;
          margin-left: auto;
          margin-right: auto;  
      }
@@ -71,7 +77,7 @@
 
  @media screen and (min-width:601px) and (max-width:750px) {
      .form > .text {
-         width: 95%;
+         width: 80%;
          margin-left: auto;
          margin-right: auto;
      }
@@ -84,7 +90,7 @@
 
  @media screen and (min-width:751px) and (max-width:1000px) {
      .form > .text {
-         width: 80%;
+         width: 60%;
          margin-left: auto;
          margin-right: auto;
      }
@@ -97,7 +103,7 @@
 
  @media screen and (min-width:1001px) and (max-width:1500px) {
      .form > .text {
-         width: 60%;
+         width: 47%;
          margin-left: auto;
          margin-right: auto;
      }
@@ -110,7 +116,7 @@
 
  @media screen and (min-width:1501px) and (max-width:2000px) {
      .form > .text {
-         width: 60%;
+         width: 40%;
          margin-left: auto;
          margin-right: auto;
      }
