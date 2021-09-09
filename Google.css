@@ -21,11 +21,19 @@
      display: flex;
      margin-left: 410px;
  }
+ .form > .button1,
+ .form > .button2 {
+     width: auto;
+     height: 40px;
+ }
  @media screen and (max-width:600px) and (min-width:0px) {
      .form > .text {
          width: 95%;
          margin-left: auto;
          margin-right: auto;  
+     }
+     .form > .button1 {
+         width: ;
      }
  }
  @media screen and (min-width:601px) and (max-width:750px) {
