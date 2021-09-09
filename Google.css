@@ -21,19 +21,28 @@
      display: flex;
      margin-left: 410px;
  }
- .form > .button1,
- .form > .button2 {
+ .divbutton {
+     display: flex;
+     justify-content: center;
+ }
+ .divbutton > .button1,
+ .divbutton > .button2 {
      width: auto;
      height: 40px;
+     font-size: 16px;
+ }
+ .divbutton > .button1 {
+     padding: 2px 15px;
+ }
+ .divbutton > .button2 {
+     margin-left: 10px;
+     padding: 2px 10px;
  }
  @media screen and (max-width:600px) and (min-width:0px) {
      .form > .text {
          width: 95%;
          margin-left: auto;
          margin-right: auto;  
-     }
-     .form > .button1 {
-         width: ;
      }
  }
  @media screen and (min-width:601px) and (max-width:750px) {
@@ -55,7 +64,6 @@
          width: 60%;
          margin-left: auto;
          margin-right: auto;
-         
      }
  }
 
