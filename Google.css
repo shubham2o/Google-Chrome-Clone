@@ -1,18 +1,30 @@
  * {
      box-sizing: border-box;
  }
+
+
+
  .image {
      display: flex;
      justify-content: center;
      margin-top: 90px;
  }
+
+
+
 .topmargin a {
      padding: 0 10px;
      text-decoration: none;
 }
+
+
+
  .form {
      margin-top: 25px;
 }
+
+
+
 .form > .text {
      width: 40%;
      height: 42px;
@@ -21,6 +33,9 @@
      display: flex;
      margin-left: 455px;
  }
+
+
+
  .divbutton {
      display: flex;
      justify-content: center;
@@ -38,32 +53,69 @@
      margin-left: 10px;
      padding: 2px 10px;
  }
+
+
+
  @media screen and (max-width:600px) and (min-width:0px) {
      .form > .text {
          width: 95%;
          margin-left: auto;
          margin-right: auto;  
      }
+     .image {
+         margin-top: 80px;
+     }
  }
+
+
+
  @media screen and (min-width:601px) and (max-width:750px) {
      .form > .text {
          width: 95%;
          margin-left: auto;
          margin-right: auto;
      }
+     .image {
+         margin-top: 70px;
+     }
  }
+
+
+
  @media screen and (min-width:751px) and (max-width:1000px) {
      .form > .text {
          width: 80%;
          margin-left: auto;
          margin-right: auto;
      }
+     .image {
+         margin-top: 70px;
+     }
  }
- @media screen and (min-width:1001px) and (max-width:1500px){
+
+
+
+ @media screen and (min-width:1001px) and (max-width:1500px) {
      .form > .text {
          width: 60%;
          margin-left: auto;
          margin-right: auto;
+     }
+     .image {
+         margin-top: 70px;
+     }
+ }
+
+
+
+ @media screen and (min-width:1501px) and (max-width:2500px) {
+     .form > .text {
+         width: 60%;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     .image {
+         margin-top: 72px;
      }
  }
 
