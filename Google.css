@@ -108,14 +108,14 @@
 
 
 
- @media screen and (min-width:1501px) and (max-width:2500px) {
+ @media screen and (min-width:1501px) and (max-width:2000px) {
      .form > .text {
          width: 60%;
          margin-left: auto;
          margin-right: auto;
      }
      .image {
-         margin-top: 72px;
+         margin-top: 95px;
      }
  }
 
