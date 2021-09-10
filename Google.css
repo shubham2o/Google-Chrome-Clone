@@ -15,10 +15,22 @@
 
  .topmargin {
      float: right;
+     margin-top: 15px;
+     color: black;
+     margin-right: 10px;
  }
  .topmargin a {
      padding: 0 10px;
      text-decoration: none;
+ }
+ .topmargin a:hover {
+     text-decoration: underline;
+ }
+ .topmargin a:link,
+ .topmargin a:visited,
+ .topmargin a:hover,
+ .topmargin a:active {
+     color: black;
  }
 
 
@@ -26,6 +38,17 @@
  .form {
      margin-top: 25px;
 }
+
+
+
+.imgplus {
+     float: right;
+     margin-top: -5px;
+ }
+ .imgplus:hover {
+     box-shadow: 3px 5px 8px gray;
+     border-radius: 100px;
+ }
 
 
 
@@ -57,6 +80,7 @@
      font-size: 14px;
      border: 0;
      background-color: white;
+     border-radius: 5px;
  }
  .divbutton > .button1 {
      padding: 2px 15px;
