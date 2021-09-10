@@ -136,7 +136,7 @@
 
 
 
- @media screen and (min-width:1501px) and (max-width:2000px) {
+ @media screen and (min-width:1501px) and (max-width:2500px) {
      .form > .text {
          width: 40%;
          margin-left: auto;
