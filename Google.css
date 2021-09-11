@@ -46,7 +46,7 @@
      margin-top: -5px;
  }
  .imgplus:hover {
-     box-shadow: 3px 5px 8px gray;
+     box-shadow: 3px 5px 10px #dadce0;
      border-radius: 100px;
  }
 
@@ -56,7 +56,7 @@
      width: 40%;
      height: 45px;
      border-radius: 15px;
-     border: 1px solid lightgray;
+     border: 1px solid #dadce0;
      display: flex;
      margin-left: 455px;
  }
@@ -65,6 +65,10 @@
 
  .form > .text:focus {
      outline: none;
+ }
+ .form > .text:hover,
+ .form > .text:active {
+     box-shadow: 0px 2px 5px lightgray;
  }
 
 
@@ -76,34 +80,31 @@
  .divbutton > .button1,
  .divbutton > .button2 {
      width: auto;
-     height: 40px;
+     height: 38px;
      font-size: 14px;
      border: 0;
      background-color: white;
      border-radius: 5px;
+     color: #222222;
+     text-align: center;
  }
  .divbutton > .button1 {
-     padding: 2px 15px;
+     padding: 0px 20px;
+     margin-right: -30px;
  }
  .divbutton > .button2 {
-     margin-left: 15px;
-     padding: 2px 10px;
- }
-
-
-
- .divbutton > .button1:hover,
- .divbutton > .button2:hover,
- .form > .text:hover  {
-     border-bottom: 2px solid lightgray;
-     box-shadow: 0px 1px 3px gray;
+     margin-left: 50px;
+     padding: 0px 20px;
  }
 
 
 
  .divbutton > .button1:hover,
  .divbutton > .button2:hover {
+     border:1px solid #dadce0;
+     background-color: #f8f9fa;
      cursor: pointer;
+     box-shadow: 0px 1px  lightgray;
  }
 
 
