@@ -182,13 +182,13 @@
      position: absolute;
      bottom: 0;
      left: 0px;
-     color: gray;
+     color: #70757a;
      font-size: 16px;
      white-space: nowrap;
      position: absolute;
  }
  .bottom p {
-     border-bottom: 1px solid #70757a;
+     border-bottom: 1px solid #dadce0;
      padding-left: 30px;
      padding-bottom: 15px;
  }
