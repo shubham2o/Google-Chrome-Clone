@@ -179,14 +179,12 @@
      background-color: #f2f2f2;
      width: 100%;
      height: auto;
-     font-size: 17px;
      position: absolute;
      bottom: 0;
      left: 0px;
      color: #70757a;
      font-size: 16px;
      white-space: nowrap;
-     position: absolute;
  }
  .bottom p {
      border-bottom: 1px solid #dadce0;
@@ -202,6 +200,14 @@
      float: right;
      padding-right: 30px;
      padding-bottom: 15px;
+ }
+
+
+
+ .bottom .left:hover,
+ .bottom .right:hover {
+     text-decoration: underline;
+     cursor: pointer;
  }
 
 
