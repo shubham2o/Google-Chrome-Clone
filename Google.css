@@ -177,24 +177,28 @@
      display: inline;
      background-color: #f2f2f2;
      width: 100%;
-     height: auto;
+     height: 90px;
      font-size: 18px;
      position: absolute;
      bottom: 0px;
+     left: 0px;
+     padding-bottom: 15px;
+     color: gray;
  }
  .bottom p {
      border-bottom: 1px solid gray;
-     padding: 8px 30px;
+     padding-left: 30px;
      text-align: justify;
-     
+ }
+ .bottom a {
+     padding-left: 30px;
  }
  .bottom .left {
      float: left;
-     margin-left: 60px;
  }
  .bottom .right {
-     margin-right: 60px;
      float: right;
+     padding-right: 30px;
  }
 
 
