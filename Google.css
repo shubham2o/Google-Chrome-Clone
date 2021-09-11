@@ -175,7 +175,7 @@
 
  .bottom {
      display: inline;
-     background-color: lightgray;
+     background-color: hsl(0, 14%, 91%);
      width: 100%;
      height: auto;
      font-size: 18px;
@@ -196,3 +196,18 @@
      margin-right: 60px;
      float: right;
  }
+
+
+ #print {
+     font-size: 150px;
+     display: none;
+     position: absolute;
+     top: 0;
+     color: black;
+     text-shadow:8px 10px red;
+ }
+@media print {
+   #print {
+     display: block;
+     }
+}
