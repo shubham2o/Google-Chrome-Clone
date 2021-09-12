@@ -41,6 +41,15 @@
 
 
 
+ .form .mag {
+     position: absolute;
+     margin-left: auto;
+     margin-top: -38px;
+     width: 30px;
+ }
+
+
+
 .imgplus {
      float: right;
      margin-top: -5px;
@@ -143,9 +152,8 @@
      }
      .image {
          padding-top: 70px;
-     }
+     } 
  }
-
 
 
  @media screen and (min-width:1001px) and (max-width:1500px) {
@@ -225,3 +233,95 @@
      display: block;
      }
 }
+
+
+ @media screen and (max-width:600px) and (min-width:0px) { 
+     .form .mag {
+         margin-left: 33px;
+     }
+ }
+ @media screen and (min-width:601px) and (max-width:750px) { 
+     .form .mag {
+         margin-left: 70px;
+     }
+ }
+ @media screen and (min-width:751px) and (max-width:800px) {
+     .form .mag {
+         margin-left: 160px;
+     }
+ }
+ @media screen and (min-width:801px) and (max-width:875px) {
+     .form .mag {
+         margin-left: 170px;
+     }
+ }
+ @media screen and (min-width:876px) and (max-width:925px) {
+     .form .mag {
+         margin-left: 180px;
+     }
+ }
+ @media screen and (min-width:925px) and (max-width:1000px) {
+     .form .mag {
+         margin-left: 200px;
+     }
+ }
+ @media screen and (min-width:1001px) and (max-width:1100px) {
+     .form .mag {
+         margin-left: 285px;
+     }
+ }
+ @media screen and (min-width:1101px) and (max-width:1200px) {
+     .form .mag {
+         margin-left: 310px;
+     }
+ }
+ @media screen and (min-width:1201px) and (max-width:1250px) {
+     .form .mag {
+         margin-left: 325px;
+     }
+ }
+ @media screen and (min-width:1251px) and (max-width:1270px) {
+         .form .mag {
+             margin-left: 330px;
+         }
+ }
+ @media screen and (min-width:1271px) and (max-width:1300px) {
+         .form .mag {
+             margin-left: 340px;
+         }
+ }
+ @media screen and (min-width:1301px) and (max-width:1350px) {
+         .form .mag {
+             margin-left: 350px;
+         }
+ }
+ @media screen and (min-width:1351px) and (max-width:1375px) {
+         .form .mag {
+             margin-left: 365px;
+         }
+ }
+ @media screen and (min-width:1376px) and (max-width:1400px) {
+         .form .mag {
+             margin-left: 370px;
+         }
+ }
+     @media screen and (min-width:1401px) and (max-width:1450px) {
+         .form .mag {
+             margin-left: 379px;
+         }
+ }
+     @media screen and (min-width:1451px) and (max-width:1475px) {
+         .form .mag {
+             margin-left: 385px;
+         }
+ }
+     @media screen and (min-width:1476px) and (max-width:1500px) {
+         .form .mag {
+             margin-left: 390px;
+         }
+ }
+ @media screen and (min-width:1501px) and (max-width:2500px) {
+         .form .mag {
+             margin-left: 460px;
+         }
+ }
