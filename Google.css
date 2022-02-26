@@ -1,337 +1,337 @@
  * {
-     box-sizing: border-box;
- }
-
-
-
- .image {
-     display: flex;
-     justify-content: center;
-     clear: right;
-     padding-top: 93px;     
- }
-
-
-
- .topmargin {
-     float: right;
-     margin-top: 15px;
-     color: black;
-     margin-right: 10px;
-     font-family: arial, sans-serif;
-     font-size: 13px;
- }
- .topmargin a {
-     padding: 0 10px;
-     text-decoration: none;
- }
- .topmargin a:hover {
-     text-decoration: underline;
- }
- .topmargin a:link,
- .topmargin a:visited,
- .topmargin a:hover,
- .topmargin a:active {
-     color: black;
- }
-
-
-
- .form {
-     margin-top: 25px;
+    box-sizing: border-box;
 }
 
 
 
- .form .mag {
-     position: absolute;
-     margin-left: auto;
-     margin-top: -38px;
-     width: 30px;
- }
+.image {
+    display: flex;
+    justify-content: center;
+    clear: right;
+    padding-top: 93px;     
+}
+
+
+
+.topmargin {
+    float: right;
+    margin-top: 15px;
+    color: black;
+    margin-right: 10px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+.topmargin a {
+    padding: 0 10px;
+    text-decoration: none;
+}
+.topmargin a:hover {
+    text-decoration: underline;
+}
+.topmargin a:link,
+.topmargin a:visited,
+.topmargin a:hover,
+.topmargin a:active {
+    color: black;
+}
+
+
+
+.form {
+    margin-top: 25px;
+}
+
+
+
+.form .mag {
+    position: absolute;
+    margin-left: auto;
+    margin-top: -38px;
+    width: 30px;
+}
 
 
 
 .imgplus {
-     float: right;
-     margin-top: -5px;
- }
- .imgplus:hover {
-     box-shadow: 3px 5px 10px #dadce0;
-     border-radius: 100px;
- }
-
-
-
- .form > .text {
-     width: 40%;
-     height: 45px;
-     border-radius: 15px;
-     border: 1px solid #dadce0;
-     display: flex;
-     margin-left: 455px;
-     padding-left: 43px;
-     font-size: 16px;
- }
-
-
-
- .form > .text:focus {
-     outline: none;
- }
- .form > .text:hover,
- .form > .text:active {
-     box-shadow: 0px 2px 5px lightgray;
- }
-
-
-
- .divbutton {
-     display: flex;
-     justify-content: center;
- }
- .divbutton > .button1,
- .divbutton > .button2 {
-     width: auto;
-     height: 38px;
-     font-size: 14px;
-     border: 0;
-     background-color: #f8f9fa;
-     border-radius: 5px;
-     color: #222222;
-     text-align: center;
- }
- .divbutton > .button1 {
-     padding: 0px 20px;
-     margin-right: -30px;
- }
- .divbutton > .button2 {
-     margin-left: 50px;
-     padding: 0px 20px;
- }
-
-
-
- .divbutton > .button1:hover,
- .divbutton > .button2:hover {
-     border:1px solid #dadce0;
-     cursor: pointer;
-     box-shadow: 0px 1px  lightgray;
- }
-
-
-
-  @media screen and (max-width:600px) and (min-width:0px) {
-     .form > .text {
-         width: 90%;
-         margin-left: auto;
-         margin-right: auto;  
-     }
-     .image {
-         padding-top: 75px;
-     }
- }
-
-
-
- @media screen and (min-width:601px) and (max-width:750px) {
-     .form > .text {
-         width: 80%;
-         margin-left: auto;
-         margin-right: auto;
-     }
-     .image {
-         padding-top: 70px;
-     }
- }
-
-
-
- @media screen and (min-width:751px) and (max-width:1000px) {
-     .form > .text {
-         width: 60%;
-         margin-left: auto;
-         margin-right: auto;
-     }
-     .image {
-         padding-top: 70px;
-     } 
- }
-
-
- @media screen and (min-width:1001px) and (max-width:1500px) {
-     .form > .text {
-         width: 47%;
-         margin-left: auto;
-         margin-right: auto;
-     }
-     .image {
-         padding-top: 70px;
-     }
- }
-
-
-
- @media screen and (min-width:1501px) and (max-width:2500px) {
-     .form > .text {
-         width: 40%;
-         margin-left: auto;
-         margin-right: auto;
-     }
-     .image {
-         padding-top: 90px;
-     }
- }
-
-
-
- .bottom {
-     display: inline;
-     background-color: #f2f2f2;
-     width: 100%;
-     height: auto;
-     position: absolute;
-     bottom: 0;
-     left: 0px;
-     color: #70757a;
-     font-size: 16px;
-     white-space: nowrap;
- }
- .bottom p {
-     border-bottom: 1px solid #dadce0;
-     padding-left: 30px;
-     padding-bottom: 15px;
- }
- .bottom .left {
-     float: left;
-     padding-left: 30px;
-     padding-bottom: 15px;
- }
- .bottom .right {
-     float: right;
-     padding-right: 30px;
-     padding-bottom: 15px;
- }
-
-
-
- .bottom .left:hover,
- .bottom .right:hover {
-     text-decoration: underline;
-     cursor: pointer;
- }
-
-
-
- #print {
-     font-size: 150px;
-     display: none;
-     position: absolute;
-     top: 0;
-     color: black;
-     text-shadow:8px 10px red;
- }
-@media print {
-   #print {
-     display: block;
-     }
+    float: right;
+    margin-top: -5px;
+}
+.imgplus:hover {
+    box-shadow: 3px 5px 10px #dadce0;
+    border-radius: 100px;
 }
 
 
- @media screen and (max-width:600px) and (min-width:0px) { 
-     .form .mag {
-         margin-left: 33px;
-     }
- }
- @media screen and (min-width:601px) and (max-width:750px) { 
-     .form .mag {
-         margin-left: 70px;
-     }
- }
- @media screen and (min-width:751px) and (max-width:800px) {
-     .form .mag {
-         margin-left: 160px;
-     }
- }
- @media screen and (min-width:801px) and (max-width:875px) {
-     .form .mag {
-         margin-left: 170px;
-     }
- }
- @media screen and (min-width:876px) and (max-width:925px) {
-     .form .mag {
-         margin-left: 180px;
-     }
- }
- @media screen and (min-width:925px) and (max-width:1000px) {
-     .form .mag {
-         margin-left: 200px;
-     }
- }
- @media screen and (min-width:1001px) and (max-width:1100px) {
-     .form .mag {
-         margin-left: 285px;
-     }
- }
- @media screen and (min-width:1101px) and (max-width:1200px) {
-     .form .mag {
-         margin-left: 310px;
-     }
- }
- @media screen and (min-width:1201px) and (max-width:1250px) {
-     .form .mag {
-         margin-left: 325px;
-     }
- }
- @media screen and (min-width:1251px) and (max-width:1270px) {
-         .form .mag {
-             margin-left: 330px;
-         }
- }
- @media screen and (min-width:1271px) and (max-width:1300px) {
-         .form .mag {
-             margin-left: 340px;
-         }
- }
- @media screen and (min-width:1301px) and (max-width:1350px) {
-         .form .mag {
-             margin-left: 350px;
-         }
- }
- @media screen and (min-width:1351px) and (max-width:1375px) {
-         .form .mag {
-             margin-left: 365px;
-         }
- }
- @media screen and (min-width:1376px) and (max-width:1400px) {
-         .form .mag {
-             margin-left: 370px;
-         }
- }
-     @media screen and (min-width:1401px) and (max-width:1450px) {
-         .form .mag {
-             margin-left: 379px;
-         }
- }
-     @media screen and (min-width:1451px) and (max-width:1475px) {
-         .form .mag {
-             margin-left: 385px;
-         }
- }
-     @media screen and (min-width:1476px) and (max-width:1500px) {
-         .form .mag {
-             margin-left: 390px;
-         }
- }
- @media screen and (min-width:1501px) and (max-width:2500px) {
-         .form .mag {
-             margin-left: 460px;
-         }
- }
+
+.form > .text {
+    width: 40%;
+    height: 45px;
+    border-radius: 15px;
+    border: 1px solid #dadce0;
+    display: flex;
+    margin-left: 455px;
+    padding-left: 43px;
+    font-size: 16px;
+}
 
 
 
- .bottom {
-     font-family: Arial, sans-serif;
-     font-size: 14px;
- }
+.form > .text:focus {
+    outline: none;
+}
+.form > .text:hover,
+.form > .text:active {
+    box-shadow: 0px 2px 5px lightgray;
+}
+
+
+
+.divbutton {
+    display: flex;
+    justify-content: center;
+}
+.divbutton > .button1,
+.divbutton > .button2 {
+    width: auto;
+    height: 38px;
+    font-size: 14px;
+    border: 0;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    color: #222222;
+    text-align: center;
+}
+.divbutton > .button1 {
+    padding: 0px 20px;
+    margin-right: -30px;
+}
+.divbutton > .button2 {
+    margin-left: 50px;
+    padding: 0px 20px;
+}
+
+
+
+.divbutton > .button1:hover,
+.divbutton > .button2:hover {
+    border:1px solid #dadce0;
+    cursor: pointer;
+    box-shadow: 0px 1px  lightgray;
+}
+
+
+
+ @media screen and (max-width:600px) and (min-width:0px) {
+    .form > .text {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+    .image {
+        padding-top: 75px;
+    }
+}
+
+
+
+@media screen and (min-width:601px) and (max-width:750px) {
+    .form > .text {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image {
+        padding-top: 70px;
+    }
+}
+
+
+
+@media screen and (min-width:751px) and (max-width:1000px) {
+    .form > .text {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image {
+        padding-top: 70px;
+    } 
+}
+
+
+@media screen and (min-width:1001px) and (max-width:1500px) {
+    .form > .text {
+        width: 47%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image {
+        padding-top: 70px;
+    }
+}
+
+
+
+@media screen and (min-width:1501px) and (max-width:2500px) {
+    .form > .text {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image {
+        padding-top: 90px;
+    }
+}
+
+
+
+.bottom {
+    display: inline;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    color: #70757a;
+    font-size: 16px;
+    white-space: nowrap;
+}
+.bottom p {
+    border-bottom: 1px solid #dadce0;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+.bottom .left {
+    float: left;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+.bottom .right {
+    float: right;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+
+
+
+.bottom .left:hover,
+.bottom .right:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+#print {
+    font-size: 150px;
+    display: none;
+    position: absolute;
+    top: 0;
+    color: black;
+    text-shadow:8px 10px red;
+}
+@media print {
+#print {
+    display: block;
+    }
+}
+
+
+@media screen and (max-width:600px) and (min-width:0px) { 
+    .form .mag {
+        margin-left: 33px;
+    }
+}
+@media screen and (min-width:601px) and (max-width:750px) { 
+    .form .mag {
+        margin-left: 70px;
+    }
+}
+@media screen and (min-width:751px) and (max-width:800px) {
+    .form .mag {
+        margin-left: 160px;
+    }
+}
+@media screen and (min-width:801px) and (max-width:875px) {
+    .form .mag {
+        margin-left: 170px;
+    }
+}
+@media screen and (min-width:876px) and (max-width:925px) {
+    .form .mag {
+        margin-left: 180px;
+    }
+}
+@media screen and (min-width:925px) and (max-width:1000px) {
+    .form .mag {
+        margin-left: 200px;
+    }
+}
+@media screen and (min-width:1001px) and (max-width:1100px) {
+    .form .mag {
+        margin-left: 285px;
+    }
+}
+@media screen and (min-width:1101px) and (max-width:1200px) {
+    .form .mag {
+        margin-left: 310px;
+    }
+}
+@media screen and (min-width:1201px) and (max-width:1250px) {
+    .form .mag {
+        margin-left: 325px;
+    }
+}
+@media screen and (min-width:1251px) and (max-width:1270px) {
+        .form .mag {
+            margin-left: 330px;
+        }
+}
+@media screen and (min-width:1271px) and (max-width:1300px) {
+        .form .mag {
+            margin-left: 340px;
+        }
+}
+@media screen and (min-width:1301px) and (max-width:1350px) {
+        .form .mag {
+            margin-left: 350px;
+        }
+}
+@media screen and (min-width:1351px) and (max-width:1375px) {
+        .form .mag {
+            margin-left: 365px;
+        }
+}
+@media screen and (min-width:1376px) and (max-width:1400px) {
+        .form .mag {
+            margin-left: 370px;
+        }
+}
+    @media screen and (min-width:1401px) and (max-width:1450px) {
+        .form .mag {
+            margin-left: 379px;
+        }
+}
+    @media screen and (min-width:1451px) and (max-width:1475px) {
+        .form .mag {
+            margin-left: 385px;
+        }
+}
+    @media screen and (min-width:1476px) and (max-width:1500px) {
+        .form .mag {
+            margin-left: 390px;
+        }
+}
+@media screen and (min-width:1501px) and (max-width:2500px) {
+        .form .mag {
+            margin-left: 460px;
+        }
+}
+
+
+
+.bottom {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
